@@ -1,1 +1,48 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  font-family: serif;
+  margin: auto;
+  margin-top: 1%;
+  position: relative;
+  box-shadow: 10px 5px 5px darkgreen;
+}
+
+.card-number {
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  text-align: center;
+  font-size: 150px;
+}
+
+.left-simbol {
+  position: absolute;
+  top: -30px;
+  left: 16px;
+  font-size: 100px;
+  color: black;
+}
+
+.right-simbol {
+  position: absolute;
+  bottom: -30px;
+  right: 16px;
+  font-size: 100px;
+  transform: rotate(180deg);
+  color: black;
+}
+
+.btn {
+  position: absolute;
+  top: 75%;
+  right: 45%;
+  box-shadow: 10px 5px 5px darkgreen;
+}
+
+.btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
